@@ -1,0 +1,28 @@
+
+.btn-style {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #FF556E;
+    color: #FFFFFF;
+    padding: 10px 27px 10px 27px;
+    border: 2px solid #FF556E;
+    transition: background 0.5s;
+}
+
+.btn-style:hover {
+    color: #FF556E;
+    background: linear-gradient(90deg, #fff, transparent, #fff);
+    background-size: 200% 200%;
+    animation: shine 1s;
+    background-color: #FF556E;
+}
+
+@keyframes shine {
+    to {
+      background-position: 200% 200%;
+    }
+  }
