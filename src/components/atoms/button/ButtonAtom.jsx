@@ -1,8 +1,8 @@
 import './buttonAtom.css'
 
-const buttonAtom = ({buttonText}) => {
+const buttonAtom = (props) => {
   return (
-    <button className='btn-style'>{buttonText}</button>
+    <button className={props.className}>{props.buttonText}</button>
   )
 }
 

@@ -1,11 +1,11 @@
-import ButtonAtom from './components/atoms/button/buttonAtom'
+import HomePage from './components/pages/HomePage'
 
 function App() {
 
 
   return (
     <>
-     <ButtonAtom buttonText={"PlayStore"}></ButtonAtom>
+      <HomePage></HomePage>
     </>
   )
 }

@@ -1,28 +1,46 @@
-
 .btn-style {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    background-color: #FF556E;
-    color: #FFFFFF;
-    padding: 10px 27px 10px 27px;
-    border: 2px solid #FF556E;
-    transition: background 0.5s;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #FF556E;
+  color: #FFFFFF;
+  padding: 10px 27px 10px 27px;
+  border: 2px solid #FF556E;
+  transition: background 0.5s;
 }
 
 .btn-style:hover {
-    color: #FF556E;
-    background: linear-gradient(90deg, #fff, transparent, #fff);
-    background-size: 200% 200%;
-    animation: shine 1s;
-    background-color: #FF556E;
+  color: #FF556E;
+  background: linear-gradient(90deg, #fff, transparent, #fff);
+  background-size: 200% 200%;
+  animation: shine 1s;
+  background-color: #FF556E;
 }
 
+.btn-style-nav {
+  color: #FF556E;
+  background-color: #F7FAFD;
+  padding: 6px 20px 6px 20px;
+  border: 2px solid #FF556E;
+  position: relative;
+  transition: background 0.5s;
+  border-radius: 20px;
+}
+
+.btn-style-nav:hover {
+  background: linear-gradient(90deg, #fff, transparent, #fff);
+  background-size: 200% 200%;
+  animation: shine 1s;
+  background-color: #FF556E;
+  color: #F7FAFD;
+}
+
+
 @keyframes shine {
-    to {
-      background-position: 200% 200%;
-    }
+  to {
+    background-position: 200% 200%;
   }
+}
